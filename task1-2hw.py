@@ -23,3 +23,5 @@ for i in range(1, N + 1):
     list_N.append(total)
 print(list_N)
 
+
+
