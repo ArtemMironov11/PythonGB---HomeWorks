@@ -1,0 +1,3 @@
+"Hello":"Hello my friend!",
+"What is your name?":"My name is Bobi-Boba",
+"What do you want?":"Megamind"
