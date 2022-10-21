@@ -8,7 +8,7 @@ with open("Task2-3hw.txt", "r", encoding="utf-8") as file:
     fruits_List = file.read().splitlines()
 
 # в массиве есть пустые элементы, не тяну их в новый массив
-for elem in fruitsList:
+for elem in fruits_List:
     if len(elem) > 0:
         clear_Fruits_List.append(elem)
 
