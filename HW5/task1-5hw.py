@@ -6,8 +6,9 @@
 
 
 import random
-
-random_List = [random.randint(1, 10) for i in range(9)]
+print('Введите количество элементов списка, N = ')
+N = int(input())
+random_List = [random.randint(1, 10) for i in range(N)]
 print(random_List, " - весь список")
 
 filteredList = list(filter(lambda x: x > 5, random_List))
