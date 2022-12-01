@@ -35,7 +35,7 @@ def hello_user(message):
 
     elif message.text == 'Угадай Число':
         bot.reply_to(
-            message, 'Введи от 1 до 100 и начни угадывать')
+            message, 'Введи от 1 до 1000 и начни угадывать')
         setCurrentState(2)
     else:
         with open("currentstate.txt", "r", encoding="utf-8") as f:
