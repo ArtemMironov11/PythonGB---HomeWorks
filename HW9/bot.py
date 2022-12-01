@@ -13,7 +13,7 @@ itembtn1 = types.KeyboardButton('Вычисления')
 itembtn2 = types.KeyboardButton('Угадай Число')
 
 def getRndNum():
-    return random.randint(1, 101)
+    return random.randint(1, 1001)
 rndNum = getRndNum()
 
 count_RndNum = 0
